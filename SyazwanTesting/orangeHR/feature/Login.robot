@@ -42,5 +42,5 @@ add candidate
     click element    xpath=//*[@id="btnSave"]
     Sleep    3
     click element    xpath=//*[@id="btnBack"]
-    Sleep 2
+    Sleep    2
     click element    xpath=//a[contains(text(),'Ali Khalid')]//preceding::input[1]
