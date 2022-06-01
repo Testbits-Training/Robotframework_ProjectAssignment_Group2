@@ -28,6 +28,8 @@ I fill the information
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
     Sleep    1
+    Choose File    xpath=//*[@id="addCandidate_resume"]    C://Users/syazw/Documents/GitHub/resume small.pdf
+    Sleep    1
 
 I Save the information
     click element    xpath=//*[@id="btnSave"]
