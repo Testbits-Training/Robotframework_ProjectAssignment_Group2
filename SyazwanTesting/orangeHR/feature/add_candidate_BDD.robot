@@ -20,3 +20,9 @@ Negative_add_candidate_fillblank_bdd
     When I navigate to Candidate and click add
     And I do not fill information
     Then I got required error if fill blank
+
+Negative_add_candidate_resume_exceed_bdd
+    Given I login into OrangeHR
+    When I navigate to Candidate and click add
+    And I fill the information but resume size is exceed
+    Then I got exceed error
