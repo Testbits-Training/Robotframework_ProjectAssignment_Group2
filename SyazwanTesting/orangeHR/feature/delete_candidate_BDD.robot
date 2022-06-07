@@ -2,6 +2,7 @@
 Library           SeleniumLibrary
 Resource          ../StepDefinition/delete_candidate.robot
 Resource          ../StepDefinition/add_cadidate.robot
+Resource          ../PageObject/DeleteCandi.robot
 
 *** Test Cases ***
 positive_success_delete
