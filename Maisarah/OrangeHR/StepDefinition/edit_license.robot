@@ -12,25 +12,34 @@ Login into OrangeHR
     click element    xpath=//*[@id="btnLogin"]
     Sleep    1
 
-Navigate to License
+Navigate to License and choose license
     click element    xpath=//*[@id="menu_admin_viewAdminModule"]/b
     Sleep    1
     click element    xpath=//*[@id="menu_admin_Qualifications"]
     Sleep    1
     click element    xpath=//*[@id="menu_admin_viewLicenses"]
     Sleep    1
+    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[1]/td[2]/a
 
-Select checkbox
-    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[2]/td[1]/input
+Rename new name license
+    input text    xpath=//*[@id="license_name"]    Certified Analytics Professional
     Sleep    1
 
-Select more than one checkbox
-    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[5]/td[1]/input
-    Sleep    1
-    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[6]/td[1]/input
+Rename same name license
+    input text    xpath=//*[@id="license_name"]    Certified Analytics Professional
     Sleep    1
 
-Click Delete
-    click element    xpath=//*[@id="btnDel"]
-    Sleep    2
+Leave blank name license
+    input text    xpath=//*[@id="license_name"]    ${EMPTY}
+    Sleep    1
+
+Click save
+    click element    xpath=//*[@id="btnSave"]
+    Sleep    1
+    close browser
+
+Error required label appear
+    click element    xpath=//*[@id="btnSave"]
+    Sleep    3
+    element text should be    xpath=//*[@id="frmSave"]/fieldset/ol/li[1]/span    Required
     close browser
