@@ -1,6 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          StepDefinition/delete_license.robot
+Resource          ../StepDefinition/delete_license.robot
 
 *** Test Cases ***
 Positive_Successfully delete a license
