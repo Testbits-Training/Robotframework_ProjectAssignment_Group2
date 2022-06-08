@@ -1,6 +1,6 @@
 *** Settings ***
-Library           ../../Program Files/Python37/Lib/site-packages/SeleniumLibrary/
-Resource          edit_license.robot
+Library           SeleniumLibrary
+Resource          StepDefinition/edit_license.robot
 
 *** Test Cases ***
 Positive_Sucessfully rename the license
