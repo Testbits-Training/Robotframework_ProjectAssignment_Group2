@@ -29,7 +29,7 @@ I fill the information
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
     Sleep    1
-    Choose File    xpath=//*[@id="addCandidate_resume"]    C://Users/syazw/Documents/GitHub/resume small.pdf
+    Choose File    xpath=//*[@id="addCandidate_resume"]    D://Document kerja/testbits/pakwanoranghr/FileUpload//resume_small.pdf
     Sleep    1
 
 I Save the information
@@ -78,5 +78,5 @@ I fill the information but resume size is exceed
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
     Sleep    1
-    Choose File    xpath=//*[@id="addCandidate_resume"]    C://Users/syazw/Documents/GitHub/resume big.pdf
+    Choose File    xpath=//*[@id="addCandidate_resume"]    D://Document kerja/testbits/pakwanoranghr/FileUpload//resume_big.pdf
     Sleep    1
