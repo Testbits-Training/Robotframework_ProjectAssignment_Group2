@@ -1,6 +1,6 @@
 *** Settings ***
-Library           ../../Program Files/Python37/Lib/site-packages/SeleniumLibrary/
-Resource          delete_license.robot
+Library           SeleniumLibrary
+Resource          ../StepDefinition/delete_license.robot
 
 *** Test Cases ***
 Positive_Successfully delete a license
