@@ -42,7 +42,6 @@ Fill the information 4
 Save the information
     click element    xpath=//*[@id="btnSave"]
     Sleep    3
-    close browser
 
 Did not fill information
     Sleep    2
