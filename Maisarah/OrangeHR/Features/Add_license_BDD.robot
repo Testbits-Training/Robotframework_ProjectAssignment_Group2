@@ -1,6 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          StepDefinition/add_license.robot
+Resource          ../StepDefinition/add_license.robot
 
 *** Test Cases ***
 Positive_Successfully add new license
