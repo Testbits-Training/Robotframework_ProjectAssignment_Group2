@@ -1,6 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          StepDefinition/edit_license.robot
+Resource          ../StepDefinition/edit_license.robot
 
 *** Test Cases ***
 Positive_Sucessfully rename the license
