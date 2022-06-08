@@ -26,6 +26,7 @@ Negative_User enter the same license
     And Fill the information 1
     Then Save the information
 
+
 Negative_user did not enter any license name
     Given Login into OrangeHR
     When Navigate to License
