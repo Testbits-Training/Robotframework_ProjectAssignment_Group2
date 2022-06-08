@@ -21,15 +21,16 @@ Navigate to License
     Sleep    1
 
 Select checkbox
-    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[3]/td[1]/input
+    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[2]/td[1]/input
     Sleep    1
 
 Select more than one checkbox
-    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[1]/td[1]/input
+    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[5]/td[1]/input
     Sleep    1
-    click element    //*[@id="recordsListTable"]/tbody/tr[5]/td[1]/input
+    click element    xpath=//*[@id="recordsListTable"]/tbody/tr[6]/td[1]/input
     Sleep    1
 
 Click Delete
     click element    xpath=//*[@id="btnDel"]
     Sleep    2
+    close browser
