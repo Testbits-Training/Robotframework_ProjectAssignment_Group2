@@ -1,5 +1,5 @@
 *** Settings ***
-Library           ../../Program Files/Python37/Lib/site-packages/SeleniumLibrary/
+Library           SeleniumLibrary
 
 *** Keyword ***
 Login into OrangeHR
