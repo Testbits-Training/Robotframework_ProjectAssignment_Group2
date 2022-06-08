@@ -2,7 +2,7 @@
 Library           SeleniumLibrary
 
 *** Test Cases ***
-login success
+add user
     open browser    https://opensource-demo.orangehrmlive.com/    chrome
     Sleep    3
     input_text    xpath=//*[@id="txtUsername"]    Admin
@@ -16,3 +16,4 @@ login success
     click element    xpath=//*[@id="btnAdd"]
     Sleep    3
     Select From List By Label    xpath=//*[@id="systemUser_userType"]    ESS
+    input_text
