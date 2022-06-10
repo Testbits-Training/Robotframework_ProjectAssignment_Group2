@@ -3,6 +3,7 @@ Library           SeleniumLibrary
 Resource          ../PageObject/Login.robot
 Resource          ../Configuration/Enviroment.robot
 Resource          ../PageObject/AddCandi.robot
+Library           ../FileUpload/resume_small.pdf
 
 *** Keyword ***
 I login into OrangeHR

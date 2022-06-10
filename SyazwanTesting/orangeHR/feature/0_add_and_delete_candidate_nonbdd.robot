@@ -2,11 +2,11 @@
 Library           SeleniumLibrary
 
 *** Variables ***
-${VariableName}    Admin
+${loginname}      Admin
 
 *** Test Cases ***
 add candidate
-    open browser    https://opensource-demo.orangehrmlive.com/    firefox
+    open browser    https://opensource-demo.orangehrmlive.com/    chrome
     Sleep    1
     input_text    xpath=//*[@id="txtUsername"]    ${VariableName}
     Sleep    1
@@ -51,3 +51,13 @@ delete
     click element    xpath=//*[@id="btnDelete"]
     click element    xpath=//*[@id="dialogDeleteBtn"]
     element text should be    xpath=//*[@id="frmList_ohrmListComponent"]/script
+
+login
+    open browser    https://opensource-demo.orangehrmlive.com/    firefox
+    Sleep    3
+    input_text    xpath=//*[@id="txtUsername"]    Admin
+    Sleep    3
+    input_text    xpath=//*[@id="txtPassword"]    admin123
+    Sleep    3
+    click element    xpath=//*[@id="btnLogin"]
+    Sleep    5

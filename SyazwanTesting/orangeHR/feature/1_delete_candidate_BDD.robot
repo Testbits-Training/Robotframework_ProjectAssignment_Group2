@@ -1,7 +1,7 @@
 *** Settings ***
 Library           SeleniumLibrary
 Resource          ../StepDefinition/delete_candidate.robot
-Resource          ../StepDefinition/add_cadidate.robot
+Resource          ../StepDefinition/add_candidate.robot
 Resource          ../PageObject/DeleteCandi.robot
 
 *** Test Cases ***

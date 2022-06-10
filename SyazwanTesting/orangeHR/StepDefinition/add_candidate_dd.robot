@@ -21,11 +21,11 @@ I navigate to Candidate and click add DD
     click element    xpath=//*[@id="btnAdd"]
 
 I fill the information DD
-    input_text    xpath=//*[@id="addCandidate_firstName"]    ${dd2_fname}
+    input_text    xpath=//*[@id="addCandidate_firstName"]    ${dd_fname}
     Sleep    1
-    input_text    xpath=//*[@id="addCandidate_lastName"]    ${dd2_lname}
+    input_text    xpath=//*[@id="addCandidate_lastName"]    ${dd_lname}
     Sleep    1
-    input_text    xpath=//*[@id="addCandidate_email"]    ${dd2_email}
+    input_text    xpath=//*[@id="addCandidate_email"]    ${dd_email}
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
     Sleep    1
