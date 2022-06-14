@@ -19,8 +19,8 @@
 ## List of Features Testing for OrangeHR :https://opensource-demo.orangehrmlive.com/
 
 1. Candidates:
-    a) Adding Candidates
-    b) Deleting Candidates
+    - Adding Candidates
+    - Deleting Candidates
 2. Jobs
 3. Licenses
 4. Nationalities
