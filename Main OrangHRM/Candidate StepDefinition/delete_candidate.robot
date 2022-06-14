@@ -1,5 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
+Resource          ../Candidate PageObject/DeleteCandi.robot
 
 *** Keywords ***
 I find candidate and click delete

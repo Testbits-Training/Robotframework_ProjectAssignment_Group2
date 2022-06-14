@@ -1,6 +1,6 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          ../StepDefinition/add_candidate.robot
+Resource          ../Candidate StepDefinition/add_candidate.robot
 
 *** Test Cases ***
 Positive_add_candidate_success_bdd

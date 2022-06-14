@@ -1,8 +1,8 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          ../StepDefinition/delete_candidate.robot
-Resource          ../StepDefinition/add_candidate.robot
-Resource          ../PageObject/DeleteCandi.robot
+Resource          ../Candidate StepDefinition/delete_candidate.robot
+Resource          ../Candidate StepDefinition/add_candidate.robot
+Resource          ../Candidate PageObject/DeleteCandi.robot
 
 *** Test Cases ***
 positive_success_delete
