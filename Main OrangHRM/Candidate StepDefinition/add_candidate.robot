@@ -80,3 +80,15 @@ I fill the information but resume size is exceed
     Sleep    1
     Choose File    ${ac_uploadresume}    D://kerja/pakwanoranghr/FileUpload/resume_big.pdf
     Sleep    1
+
+I fill the information for ${firstname}, ${lastname} and ${email}
+    input_text    ${ac_lname}    ${firstname}
+    Sleep    1
+    input_text    ${ac_fname}    ${lastname}
+    Sleep    1
+    input_text    ${ac_email}    ${email}
+    Sleep    1
+    Select From List By Label    ${ac_jobva}    Senior QA Lead
+    Sleep    1
+    Choose File    ${ac_uploadresume}    D://kerja/pakwanoranghr/FileUpload/resume_small.pdf
+    Sleep    1
