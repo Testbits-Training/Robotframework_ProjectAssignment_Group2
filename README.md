@@ -1,5 +1,10 @@
 # Robotframework_Project
 
+Robot Framework is an open-source test automation framework, exclusively designed for acceptance testing and acceptance test-driven development.
+The environment it uses is built with a number of libraries and tools. If comparing
+
+Robot Framework with other test automation tools, then the best benefit with Robot Framework for the users is that there is no need for using any sort of programming language for implementing and running tests.
+
 
 ## Installation:
 
