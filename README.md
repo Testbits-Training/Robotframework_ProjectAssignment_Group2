@@ -21,6 +21,8 @@
 1. Candidates:
     - Adding Candidates
     - Deleting Candidates
-2. Jobs
-3. Licenses
-4. Nationalities
+2. Jobs Categories
+    -Add job categories
+    -Delete job categories
+4. Licenses
+5. Nationalities
