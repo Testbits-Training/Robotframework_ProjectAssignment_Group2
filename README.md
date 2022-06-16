@@ -37,7 +37,11 @@ https://www.selenium.dev/downloads/
     - Adding Candidates
     - Deleting Candidates
 2. Jobs Categories
-    -Add job categories
-    -Delete job categories
-4. Licenses
-5. Nationalities
+    - Add job categories
+    - Delete job categories
+3. Licenses
+
+
+## Reference:
+
+- https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-setup-and-teardown
