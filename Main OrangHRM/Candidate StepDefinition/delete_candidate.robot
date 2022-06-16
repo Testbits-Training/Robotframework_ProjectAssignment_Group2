@@ -14,7 +14,7 @@ I find candidate and click delete
 
 I navigate to Candidate
     click element    xpath=//*[@id="menu_recruitment_viewRecruitmentModule"]/b
-    Sleep    1
 
 I get successful delete
-    element text should be    xpath=//*[@id="frmList_ohrmListComponent"]/script
+    Sleep    3
+    Close Browser
