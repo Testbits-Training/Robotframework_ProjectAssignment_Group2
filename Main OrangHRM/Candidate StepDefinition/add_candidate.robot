@@ -29,7 +29,7 @@ I fill the information
     Sleep    1
     Select From List By Label    ${ac_jobva}    Senior QA Lead
     Sleep    1
-    Choose File    ${ac_uploadresume}    D://kerja/pakwanoranghr/FileUpload/resume_small.pdf
+    Choose File    ${ac_uploadresume}    ${CURDIR}/resume_small.pdf
     Sleep    1
 
 I Save the information
@@ -66,7 +66,7 @@ I fill the information with wrong email format
     Sleep    1
     Select From List By Label    ${ac_jobva}    Senior QA Lead
     Sleep    1
-    Choose File    ${ac_uploadresume}    D://Document kerja/testbits/pakwanoranghr/FileUpload//resume_small.pdf
+    Choose File    ${ac_uploadresume}    ${CURDIR}/resume_small.pdf
     Sleep    1
 
 I fill the information but resume size is exceed
@@ -78,7 +78,7 @@ I fill the information but resume size is exceed
     Sleep    1
     Select From List By Label    ${ac_jobva}    Senior QA Lead
     Sleep    1
-    Choose File    ${ac_uploadresume}    D://kerja/pakwanoranghr/FileUpload/resume_big.pdf
+    Choose File    ${ac_uploadresume}    ${CURDIR}/resume_big.pdf
     Sleep    1
 
 I fill the information for ${firstname}, ${lastname} and ${email}
@@ -90,5 +90,5 @@ I fill the information for ${firstname}, ${lastname} and ${email}
     Sleep    1
     Select From List By Label    ${ac_jobva}    Senior QA Lead
     Sleep    1
-    Choose File    ${ac_uploadresume}    D://kerja/pakwanoranghr/FileUpload/resume_small.pdf
+    Choose File    ${ac_uploadresume}    ${CURDIR}/resume_small.pdf
     Sleep    1

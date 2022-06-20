@@ -4,10 +4,10 @@ Test Teardown     Close Browser
 Library           SeleniumLibrary
 
 *** Variables ***
-${fname}          Ali
+${fname}          Alia
 ${lname}          Khalid
 ${email}          alikhalid@kmail.com
-${resume}         D://kerja/pakwanoranghr/FileUpload/resume_small.pdf
+${resume}         ${CURDIR}/resume_small.pdf
 
 *** Test Cases ***
 add candidate
@@ -16,15 +16,13 @@ add candidate
     Sleep    1
     click element    xpath=//*[@id="btnAdd"]
     Sleep    1
-    input_text    xpath=//*[@id="addCandidate_firstName"]    ${fname}
-    Sleep    1
-    input_text    xpath=//*[@id="addCandidate_lastName"]    ${lname}
+    Add candidate ${fname} and ${lname}
     Sleep    1
     input_text    xpath=//*[@id="addCandidate_email"]    ${email}
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
-    ##Choose File    xpath=//*[@id="addCandidate_resume"]    ${resume}
     Sleep    1
+    Choose File    xpath=//*[@id="addCandidate_resume"]    ${resume}
     click element    xpath=//*[@id="btnSave"]
     Sleep    3
     click element    xpath=//*[@id="btnBack"]
@@ -34,7 +32,7 @@ delete
     Sleep    1
     click element    xpath=//*[@id="menu_recruitment_viewRecruitmentModule"]/b
     Sleep    1
-    input text    xpath=//*[@id="candidateSearch_candidateName"]    Ali Khalid
+    input text    xpath=//*[@id="candidateSearch_candidateName"]    Alia Khalid
     Sleep    1
     click element    xpath=//*[@id="btnSrch"]
     Sleep    1
@@ -53,3 +51,8 @@ Login_Keyword
     Sleep    3
     click element    xpath=//*[@id="btnLogin"]
     Sleep    2
+
+Add candidate ${firstname} and ${lastname}
+    input_text    xpath=//*[@id="addCandidate_firstName"]    ${firstname}
+    Sleep    1
+    input_text    xpath=//*[@id="addCandidate_lastName"]    ${lastname}
