@@ -5,8 +5,8 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${fname}          Alia
-${lname}          Khalid
-${email}          alikhalid@kmail.com
+${lname}          Khalidah
+${email}          alikhalidah@kmail.com
 ${resume}         ${CURDIR}/resume_small.pdf
 
 *** Test Cases ***
@@ -32,7 +32,7 @@ delete
     Sleep    1
     click element    xpath=//*[@id="menu_recruitment_viewRecruitmentModule"]/b
     Sleep    1
-    input text    xpath=//*[@id="candidateSearch_candidateName"]    Alia Khalid
+    input text    xpath=//*[@id="candidateSearch_candidateName"]    Alia Khalidah
     Sleep    1
     click element    xpath=//*[@id="btnSrch"]
     Sleep    1
@@ -40,7 +40,6 @@ delete
     click element    xpath=//*[@id="btnDelete"]
     click element    xpath=//*[@id="dialogDeleteBtn"]
     Sleep    3
-    ##element text should be    xpath=//*[@id="frmList_ohrmListComponent"]/script    Successfully Deleted
 
 *** Keywords ***
 Login_Keyword
