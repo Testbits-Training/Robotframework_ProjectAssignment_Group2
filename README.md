@@ -31,6 +31,20 @@ pip install --upgrade robotframework-seleniumlibrary
 6. Install WebDriver:
 https://www.selenium.dev/downloads/
 
+
+
+Robot Framework contain:
+1. introduction
+2. Features, benefits and limitation of Robot framework
+3. Installation
+4. Test data syntax​
+5. Keywords in Selenium Library ​
+6. First testing
+7. Test setup and teardown
+8. variable, keywords file, resource file
+9. Behavior-driven development
+10. Data Driven
+
 ## List of Features Testing for OrangeHR :https://opensource-demo.orangehrmlive.com/
 
 1. Candidates:
