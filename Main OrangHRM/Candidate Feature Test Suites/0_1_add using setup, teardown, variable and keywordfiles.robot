@@ -7,7 +7,7 @@ Library           SeleniumLibrary
 ${fname}          Alia
 ${lname}          Khalidah
 ${email}          alikhalidah@kmail.com
-${resume}         ${CURDIR}/resume_small.pdf
+${resume}         ${CURDIR}/resume_small_size.pdf
 
 *** Test Cases ***
 add candidate

@@ -22,7 +22,7 @@ add candidate
     Sleep    1
     Select From List By Label    xpath=//*[@id="addCandidate_vacancy"]    Senior QA Lead
     Sleep    1
-    Choose File    xpath=//*[@id="addCandidate_resume"]    ${CURDIR}/resume_small.pdf
+    Choose File    xpath=//*[@id="addCandidate_resume"]    ${CURDIR}/resume_small_size.pdf
     click element    xpath=//*[@id="btnSave"]
     Sleep    3
     click element    xpath=//*[@id="btnBack"]
