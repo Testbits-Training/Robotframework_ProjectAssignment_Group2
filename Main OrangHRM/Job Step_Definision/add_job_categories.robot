@@ -1,8 +1,8 @@
 *** Settings ***
 Library           SeleniumLibrary
-Resource          ../Page_Object/login.robot
-Resource          ../Configuration/Environment.robot
-Resource          ../Page_Object/job_categories_add.robot
+Resource          ../Job Page_Object/login.robot
+Resource          ../Configuration/Enviroment.robot
+Resource          ../Job Page_Object/job_categories_add.robot
 
 *** Keyword ***
 I login into OrangeHRM
