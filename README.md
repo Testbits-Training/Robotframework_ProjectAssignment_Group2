@@ -45,7 +45,7 @@ https://www.selenium.dev/downloads/
 9. Behavior-driven development
 10. Data Driven
 
-*Documentation inside 'Robotframework Group 2.pptx'
+*Documentation inside 'Robotframework Group 2.pptx'.Then testing script that involve documentation inside folder 'Robotframework Testing from documentation'
 
 ## List of Features Testing for OrangeHR :https://opensource-demo.orangehrmlive.com/
 
