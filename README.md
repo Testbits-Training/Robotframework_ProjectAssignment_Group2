@@ -5,7 +5,7 @@ Robot Framework is an open-source test automation framework, exclusively designe
 ## Benefit:
 
 - It is open-source framework.
-- It follows keyword driven, behaviour driven and data driven approach for writing test script.
+- It follows keyword driven, behavior driven and data driven approach for writing test script.
 - Robot Framework has very easy syntax and uses human readable keywords.
 - It capabilities can be extended libraries implemented in Java and python.
 - Robot framework is extensively used for RPA, Database, API automation & Web automation.
@@ -56,8 +56,21 @@ https://www.selenium.dev/downloads/
     - Add job categories
     - Delete job categories
 3. Licenses
+    - Add Licenses
+    - Delete Licenses
+    - Edit Licenses
 
 
-## Reference:
+### Reference:
 
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-setup-and-teardown
+- https://www.tutorialspoint.com/robot_framework/index.htm​
+- https://youtu.be/ErTN5rE6t8s​
+- https://youtube.com/playlist?list=PLhW3qG5bs-L9l2I8K8dEhw6HXy-Z-33w3​
+
+
+### video tutorial:
+1. Installation tutorial:
+- https://drive.google.com/file/d/1T419njqcb95olZcSsW19c38vwjytEWwl/view?usp=drivesdk
+2. First testing tutorial:
+- https://drive.google.com/file/d/15Jmh_H6eVjceUPJOgx1At7xocYJwLWCS/view?usp=sharing
