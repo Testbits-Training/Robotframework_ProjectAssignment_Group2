@@ -2,7 +2,7 @@
 Library           SeleniumLibrary
 
 *** Test Cases ***
-open browser
+add candidate
     https://opensource-demo.orangehrmlive.com/    chrome
     input_text    xpath=//*[@id="txtUsername"]    Admin
     Sleep    2
