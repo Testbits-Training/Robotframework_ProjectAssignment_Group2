@@ -59,6 +59,10 @@ https://www.selenium.dev/downloads/
     - Add Licenses
     - Delete Licenses
     - Edit Licenses
+4. Nationalites
+	- Add Nationalites
+	- Delete Nationalites
+	-
 
 
 ### Reference:
