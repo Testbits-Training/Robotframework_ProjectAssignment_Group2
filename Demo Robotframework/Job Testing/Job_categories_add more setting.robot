@@ -39,3 +39,6 @@ add job ${add_job}
     input_text    xpath=//*[@id="jobCategory_name"]    ${add_job}
     Sleep    2
     click element    xpath=//*[@id="btnSave"]
+
+ad job 2
+    [Arguments]    ${addjob}
