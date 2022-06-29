@@ -9,10 +9,10 @@ ${Browser}        chrome
 
 *** Test Cases ***
 Mechanical Engineering
-    Mechanical Engineering
+    Mechanical Engineering 2
 
 Civil Engineering
-    Civil Engineering
+    Civil Engineering 2
 
 *** Keywords ***
 add job categories
