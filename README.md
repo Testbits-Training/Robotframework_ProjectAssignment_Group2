@@ -4,66 +4,63 @@ Robot Framework is an open-source test automation framework, exclusively designe
 
 ## Benefit:
 
-- It is open-source framework.
+- It is an open-source framework.
 - It follows keyword driven, behavior driven and data driven approach for writing test script.
 - Robot Framework has very easy syntax and uses human readable keywords.
-- It capabilities can be extended libraries implemented in Java and python.
+- Extensive open-sourced libraries implemented in Java and Python.
 - Robot framework is extensively used for RPA, Database, API automation & Web automation.
 - This is the only framework which comes with all industry standard framework features with very minimal coding
 
 ## Limitation:
+
 Robot lacks support for if-else, nested loops, which are required when the code gets complex.
-
-
 
 ## Installation:
 
 1. Install Python 3.7.8 (follow pdf for more detail):
-https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe
+   https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe
 2. Install Robot Framework on command prompt:
-pip install Robotframework
+   pip install Robotframework
 3. Install Wxpython version 4.0.7 on command prompt:
-pip install wxpython==4.0.7
+   pip install wxpython==4.0.7
 4. Install Robotframework IDE (RIDE) on command prompt:
-pip install robotframework-rid
+   pip install robotframework-rid
 5. Install Selenium Library on command prompt:
-pip install --upgrade robotframework-seleniumlibrary
+   pip install --upgrade robotframework-seleniumlibrary
 6. Install WebDriver:
-https://www.selenium.dev/downloads/
+   https://www.selenium.dev/downloads/
 
+### Robot Framework Documentation contains:
 
-
-### Robot Framework Documentation contain:
-1. introduction
-2. Features, benefits and limitation of Robot framework
+1. Introduction
+2. Features, benefits and limitation of Robot Framework
 3. Installation
 4. Test data syntax​
 5. Keywords in Selenium Library ​
 6. First testing
 7. Test setup and teardown
-8. variable, keywords file, resource file
-9. Behavior-driven development
+8. Variables, keywords files, resource files
+9. Behavior-driven development (BDD)
 10. Data Driven
 
-*Documentation inside 'Robotframework Group 2.pptx'.Then testing script that involve documentation inside folder 'Robotframework Testing from documentation'
+\*Documentation inside 'Robotframework Group 2.pptx'.The test scripts documentation is inside the folder 'Documentations'
 
-## List of Features Testing for OrangeHR :https://opensource-demo.orangehrmlive.com/
+## List of Features Testing for OrangeHRM :https://opensource-demo.orangehrmlive.com/
 
 1. Candidates:
-    - Adding Candidates
-    - Deleting Candidates
+   - Adding Candidates
+   - Deleting Candidates
 2. Jobs Categories
-    - Add job categories
-    - Delete job categories
+   - Add job categories
+   - Delete job categories
 3. Licenses
-    - Add Licenses
-    - Delete Licenses
-    - Edit Licenses
+   - Add Licenses
+   - Delete Licenses
+   - Edit Licenses
 4. Nationalites
-	- Add Nationalites
-	- Delete Nationalites
-	-
-
+   - Add Nationalites
+   - Delete Nationalites
+   -
 
 ### Reference:
 
@@ -72,9 +69,12 @@ https://www.selenium.dev/downloads/
 - https://youtu.be/ErTN5rE6t8s​
 - https://youtube.com/playlist?list=PLhW3qG5bs-L9l2I8K8dEhw6HXy-Z-33w3​
 
-
 ### video tutorial:
+
 1. Installation tutorial:
+
 - https://drive.google.com/file/d/1T419njqcb95olZcSsW19c38vwjytEWwl/view?usp=drivesdk
+
 2. First testing tutorial:
+
 - https://drive.google.com/file/d/15Jmh_H6eVjceUPJOgx1At7xocYJwLWCS/view?usp=sharing
