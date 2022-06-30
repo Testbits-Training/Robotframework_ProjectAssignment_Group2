@@ -57,10 +57,10 @@ Robot lacks support for if-else, nested loops, which are required when the code 
    - Add Licenses
    - Delete Licenses
    - Edit Licenses
-4. Nationalites
-   - Add Nationalites
-   - Delete Nationalites
-   -
+4. Nationalities
+   - Add Nationalities
+   - Delete Nationalities
+   - Edit Nationalities
 
 ### Reference:
 
