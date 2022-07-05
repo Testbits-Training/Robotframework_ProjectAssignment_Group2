@@ -7,13 +7,11 @@ Resource          ../Resources/Common_login.robot
 
 *** Test Cases ***
 Login oranghr
-    [Timeout]    ${TIMEOUT}
     input_text    xpath=//*[@id="txtUsername"]    Admin
     input_text    xpath=//*[@id="txtPassword"]    admin123
     click element    xpath=//*[@id="btnLogin"]
 
 Login fail
-    [Timeout]    ${TIMEOUT}
     input_text    xpath=//*[@id="txtUsername"]    Admin
     input_text    xpath=//*[@id="txtPassword"]    admin1234
     click element    xpath=//*[@id="btnLogin"]

@@ -7,11 +7,10 @@ Library           LambdaTestStatus.py
 ${BROWSER}        chrome
 ${CAPABILITIES}    ${EMPTY.join(${_tmp})}
 ${REMOTE_URL}     http://muhammadsyazwanrusdi:PIznrE9KhbMLp8xFHe2IXQmTUgLXru7ltWiw2n0Y68EaAT15J1@hub.lambdatest.com/wd/hub
-${TIMEOUT}        3000
+
 
 *** Keywords ***
 Open test browser
-    [Timeout]    ${TIMEOUT}
     Open browser    https://opensource-demo.orangehrmlive.com/    browser=${BROWSER}    remote_url=${REMOTE_URL}    desired_capabilities=${CAPABILITIES}
 
 Close test browser
