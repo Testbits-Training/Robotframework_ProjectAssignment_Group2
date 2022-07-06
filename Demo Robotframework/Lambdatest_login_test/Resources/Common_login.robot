@@ -3,11 +3,10 @@ Library           Selenium2Library
 Library           LambdaTestStatus.py
 
 *** Variables ***
-@{_tmp}           browserName: chrome,    platform: Windows 8.1 ,    version: 92.0 ,    visual: false ,    network: false,    console: false,    name: RobotFramework Lambda Test
+@{_tmp}           browserName: Safari,    platform: MacOS Monterey ,    version: 15.0 ,    visual: false ,    network: false,    console: false,    name: RobotFramework Lambda Test
 ${BROWSER}        chrome
 ${CAPABILITIES}    ${EMPTY.join(${_tmp})}
 ${REMOTE_URL}     http://muhammadsyazwanrusdi:PIznrE9KhbMLp8xFHe2IXQmTUgLXru7ltWiw2n0Y68EaAT15J1@hub.lambdatest.com/wd/hub
-
 
 *** Keywords ***
 Open test browser
