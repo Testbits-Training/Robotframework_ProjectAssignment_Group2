@@ -10,9 +10,12 @@ Login oranghr
     input_text    xpath=//*[@id="txtUsername"]    Admin
     input_text    xpath=//*[@id="txtPassword"]    admin123
     click element    xpath=//*[@id="btnLogin"]
+    sleep    10
+    element text should be    xpath=//*[@id="content"]/div/div[1]/h1    Dashboard
 
-Login fail
+Login test fail
     input_text    xpath=//*[@id="txtUsername"]    Admin
     input_text    xpath=//*[@id="txtPassword"]    admin1234
     click element    xpath=//*[@id="btnLogin"]
-    click element    xpath=//*[@id="menu_admin_viewAdminModule"]
+    sleep    10
+    element text should be    xpath=//*[@id="content"]/div/div[1]/h1
