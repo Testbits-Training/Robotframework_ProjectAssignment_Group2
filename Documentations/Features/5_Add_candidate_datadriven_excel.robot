@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation     Dont run it on RIDE. Please run it on Python IDE
 Test Template     DD_Positive_add_candidate_success_bdd
 Library           SeleniumLibrary
 Resource          ../StepDefinition/add_candidate.robot
