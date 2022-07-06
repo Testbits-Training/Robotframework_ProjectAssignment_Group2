@@ -61,13 +61,13 @@ Robot lacks support for if-else, nested loops, which are required when the code 
    - Add Nationalities
    - Delete Nationalities
    - Edit Nationalities
-   
-   
+
 ##Note for Data driven using excel file:
 
-For data driven test case using excel file, you can use RIDE for this task is not recommended. You can use Python IDE (such as PyCharm) to run this data driven test. 
-- For installation PyCharm: https://www.youtube.com/watch?v=ZqqIRgNn1vM
-- For first test using PyCharm: https://www.youtube.com/watch?v=WsjShhwDLlo
+For data driven test case using excel file, RIDE is not recommended. You can use Python IDE (such as PyCharm) to run this data driven test.
+
+- For the installation of PyCharm: https://www.youtube.com/watch?v=ZqqIRgNn1vM
+- Writing your first test using PyCharm: https://www.youtube.com/watch?v=WsjShhwDLlo
 - For data driven using excel file tutorial, can refer documentation
 
 ### Reference:
