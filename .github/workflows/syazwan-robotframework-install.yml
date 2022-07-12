@@ -29,7 +29,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Install WXPython
       run: |
-        pip install wxpython==4.0.7
+        pip install wxpython==4.0.7; fi
     - name: Install RIDE
       run: |
         pip install robotframework-ride
