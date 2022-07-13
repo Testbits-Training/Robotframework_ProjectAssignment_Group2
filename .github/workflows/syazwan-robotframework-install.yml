@@ -28,10 +28,7 @@ jobs:
         pip install robotframework
     - name: Install WXPython
       run: |
-        pip install wxpython
-    - name: Install RIDE
-      run: |
-        pip install robotframework-ride
+        pip install wxpython==4.0.7
     - name: Install Selenium Library
       run: |
         pip install --upgrade robotframework-seleniumlibrary
