@@ -32,5 +32,8 @@ jobs:
     - name: Install Selenium Library
       run: |
         pip install --upgrade robotframework-seleniumlibrary
+    - name: Install Data Driver
+      run: |
+        pip install --upgrade robotframework-datadriver[XLS]
         
     
