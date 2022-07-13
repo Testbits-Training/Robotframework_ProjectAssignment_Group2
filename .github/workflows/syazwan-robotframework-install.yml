@@ -26,7 +26,6 @@ jobs:
     - name: Install Robot Framework Library
       run: |
         pip install robotframework
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Install WXPython
       run: |
         pip install wxpython
