@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   build:
-
     runs-on: windows-latest
 
     steps:
@@ -35,5 +34,11 @@ jobs:
     - name: Install Data Driver
       run: |
         pip install --upgrade robotframework-datadriver[XLS]
+  
+  first_test:
+    runs-on: windows-latest
+    needs:  [build]
+    
+    steps:  
         
     
