@@ -18,6 +18,10 @@ Navigate to admin
 Navigate to nationalities
     click element    xpath=//*[@id="menu_admin_nationality"]
 
+Choose nation to edit
+    click element    xpath=//*[@id="resultTable"]/tbody/tr[3]/td[2]/a
+    sleep    1
+
 Leave text box empty
     click element    xpath=//*[@id="resultTable"]/tbody/tr[3]/td[2]/a
     sleep    1

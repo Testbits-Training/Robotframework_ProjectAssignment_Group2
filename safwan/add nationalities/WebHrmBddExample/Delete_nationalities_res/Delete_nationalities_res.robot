@@ -19,10 +19,10 @@ Navigate to nationalities
     click element    xpath=//*[@id="menu_admin_nationality"]
 
 Choose nation 1 to delete
-    click element    xpath=//*[@id="ohrmList_chkSelectRecord_22"]
+    click element    xpath=//*[@id="ohrmList_chkSelectRecord_32"]
 
 Choose nation 2 to delete
-    click element    xpath=//*[@id="ohrmList_chkSelectRecord_23"]
+    click element    xpath=//*[@id="ohrmList_chkSelectRecord_33"]
 
 Click button delete
     click element    xpath=//*[@id="btnDelete"]
