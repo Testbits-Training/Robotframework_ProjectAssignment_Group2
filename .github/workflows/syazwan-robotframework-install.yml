@@ -34,6 +34,9 @@ jobs:
     - name: Install Data Driver
       run: |
         pip install --upgrade robotframework-datadriver[XLS]
+    - name: Install web driver
+      run: |
+        pip install webdrivermanager
   
   first_test:
     runs-on: windows-latest
