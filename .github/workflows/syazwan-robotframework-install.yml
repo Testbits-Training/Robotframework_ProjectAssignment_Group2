@@ -47,5 +47,5 @@ jobs:
         python-version: "3.7"
     - name: Run add candidate first testing
       run: |
-        
+        robot Documentations\Features\0_First_Test_Suite.robot
     
