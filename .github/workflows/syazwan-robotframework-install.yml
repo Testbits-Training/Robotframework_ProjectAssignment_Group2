@@ -37,6 +37,7 @@ jobs:
     - name: Install web driver
       run: |
         pip install webdrivermanager
+        webdrivermanager firefox chrome --linkpath /usr/local/bin
   
   first_test:
     runs-on: windows-latest
