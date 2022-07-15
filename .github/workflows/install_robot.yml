@@ -1,16 +1,21 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-name: Python application
+
+name: Robotframework installation
+
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+
 permissions:
   contents: read
+
 jobs:
   build:
     runs-on: windows-latest
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.7
@@ -22,12 +27,29 @@ jobs:
         pip install robotframework
     - name: Install WXPython
       run: |
-        pip install wxpython
-    - name: Install RIDE
-      run: |
-        pip install robotframework-ride
         pip install wxpython==4.0.7
     - name: Install Selenium Library
       run: |
         pip install --upgrade robotframework-seleniumlibrary
+    - name: Install Data Driver
+      run: |
+        pip install --upgrade robotframework-datadriver[XLS]
+    - name: Install web driver
+      run: |
+        pip install webdrivermanager
+        webdrivermanager firefox chrome --linkpath /usr/local/bin
+  
+  first_test:
+    runs-on: windows-latest
+    needs:  [build]
+    
+    steps:  
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.7"
+    - name: Run add candidate first testing
+      run: |
+        robot Documentations\Features\0_First_Test_Suite.robotbrary
         
