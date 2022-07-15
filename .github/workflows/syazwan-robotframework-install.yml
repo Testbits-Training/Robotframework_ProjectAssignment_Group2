@@ -49,7 +49,39 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.7"
-    - name: Run add candidate first testing
+    - name: Run Robot Framework tests on Windows
+      if: matrix.os == 'windows-latest'
       run: |
-        robot Documentations\Features\0_First_Test_Suite.robot
-    
+        inv atest --shard ${{ matrix.shard }}/4 -z true
+    - uses: actions/upload-artifact@v2
+      if: ${{ always() }}
+      with:
+        name: Test results
+        path: zip_results/output
+    - name: Create Distributable Package
+      run: |
+        inv docs
+        inv create-package
+    - name: Artifacts download for flaky test analysis
+      if: ${{ failure() }}
+      # flaky-tests-detection and failures-analysis install is here because dependencies takes long
+      # time to install and not needed for the test-install
+      run : |
+        pip install flaky-tests-detection failures-analysis
+        python download_file.py --project  MarketSquare --repo robotframework-browser --token ${{ secrets.GITHUB_TOKEN }}
+        inv copy-xunit
+    - name: Flaky tests detection
+      if: ${{ failure() }}
+      run: |
+        flaky --junit-files=flip_rate/xunit/ --grouping-option=days --window-size=2 --window-count=5 --top-n=10
+    - name: Failures analysis
+      if: ${{ failure() }}
+      run: |
+        failures-analysis ./flip_rate/xunit/
+    - name: Package demoapp
+      run: |
+        inv demo-app
+    - uses: actions/upload-artifact@v2
+      with:
+        name: demoapp
+        path: zip_results/demoapp
