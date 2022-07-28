@@ -24,7 +24,7 @@ Robot lacks support for if-else, nested loops, which are required when the code 
 3. Install Wxpython version 4.0.7 on command prompt:
    pip install wxpython==4.0.7
 4. Install Robotframework IDE (RIDE) on command prompt:
-   pip install robotframework-rid
+   pip install robotframework-ride
 5. Install Selenium Library on command prompt:
    pip install --upgrade robotframework-seleniumlibrary
 6. Install WebDriver:
