@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220803 16:41:16.731" rpa="false" schemaversion="3">
+<suite id="s1" name="0 First Test Suite" source="E:\Github\Robotframework_ProjectAssignment_Group2\Documentations\Features\0_First_Test_Suite.robot">
+<test id="s1-t1" name="add candidate" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220803 16:41:16.872" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" starttime="20220803 16:41:16.872" endtime="20220803 16:41:23.130"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txtUsername"]</arg>
+<arg>Admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220803 16:41:23.131" level="INFO">Typing text 'Admin' into text field 'xpath=//*[@id="txtUsername"]'.</msg>
+<status status="PASS" starttime="20220803 16:41:23.130" endtime="20220803 16:41:23.181"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220803 16:41:25.183" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220803 16:41:23.181" endtime="20220803 16:41:25.183"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="txtPassword"]</arg>
+<arg>admin123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220803 16:41:25.183" level="INFO">Typing text 'admin123' into text field 'xpath=//*[@id="txtPassword"]'.</msg>
+<status status="PASS" starttime="20220803 16:41:25.183" endtime="20220803 16:41:25.225"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220803 16:41:28.228" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220803 16:41:25.225" endtime="20220803 16:41:28.228"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btnLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220803 16:41:28.228" level="INFO">Clicking element 'xpath=//*[@id="btnLogin"]'.</msg>
+<status status="PASS" starttime="20220803 16:41:28.228" endtime="20220803 16:41:29.288"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220803 16:41:32.296" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220803 16:41:29.288" endtime="20220803 16:41:32.296"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="menu_recruitment_viewRecruitmentModule"]/b</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220803 16:41:32.296" level="INFO">Clicking element 'xpath=//*[@id="menu_recruitment_viewRecruitmentModule"]/b'.</msg>
+<msg timestamp="20220803 16:41:56.650" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00335FD3+2187219]
+	Ordinal0 [0x002CE6D1+1763025]
+	Ordinal0 [0x001E3D40+802112]
+	Ordinal0 [0x001D8A12+756242]
+	Ordinal0 [0x001D9248+758344]
+	Ordinal0 [0x001DAB02+764674]
+	Ordinal0 [0x001D4379+738169]
+	Ordinal0 [0x001E51D0+807376]
+	Ordinal0 [0x0023C7A2+1165218]
+	Ordinal0 [0x0022C9A6+1100198]
+	Ordinal0 [0x00206F80+946048]
+	Ordinal0 [0x00207E76+949878]
+	GetHandleVerifier [0x005D90C2+2721218]
+	GetHandleVerifier [0x005CAAF0+2662384]
+	GetHandleVerifier [0x003C137A+526458]
+	GetHandleVerifier [0x003C0416+522518]
+	Ordinal0 [0x002D4EAB+1789611]
+	Ordinal0 [0x002D97A8+1808296]
+	Ordinal0 [0x002D9895+1808533]
+	Ordinal0 [0x002E26C1+1844929]
+	BaseThreadInitThunk [0x75C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A4E+238]
+</msg>
+<msg timestamp="20220803 16:41:56.650" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00335FD3+2187219]
+	Ordinal0 [0x002CE6D1+1763025]
+	Ordinal0 [0x001E3D40+802112]
+	Ordinal0 [0x001D8A12+756242]
+	Ordinal0 [0x001D9248+758344]
+	Ordinal0 [0x001DAB02+764674]
+	Ordinal0 [0x001D4379+738169]
+	Ordinal0 [0x001E51D0+807376]
+	Ordinal0 [0x0023C7A2+1165218]
+	Ordinal0 [0x0022C9A6+1100198]
+	Ordinal0 [0x00206F80+946048]
+	Ordinal0 [0x00207E76+949878]
+	GetHandleVerifier [0x005D90C2+2721218]
+	GetHandleVerifier [0x005CAAF0+2662384]
+	GetHandleVerifier [0x003C137A+526458]
+	GetHandleVerifier [0x003C0416+522518]
+	Ordinal0 [0x002D4EAB+1789611]
+	Ordinal0 [0x002D97A8+1808296]
+	Ordinal0 [0x002D9895+1808533]
+	Ordinal0 [0x002E26C1+1844929]
+	BaseThreadInitThunk [0x75C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A4E+238]
+</msg>
+<status status="FAIL" starttime="20220803 16:41:32.296" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btnAdd"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="addCandidate_firstName"]</arg>
+<arg>Alia</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="addCandidate_lastName"]</arg>
+<arg>Khalid</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="addCandidate_email"]</arg>
+<arg>aliakhalid@kmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>xpath=//*[@id="addCandidate_vacancy"]</arg>
+<arg>Senior QA Lead</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Choose File" library="SeleniumLibrary">
+<arg>xpath=//*[@id="addCandidate_resume"]</arg>
+<arg>E:\\Github\\Robotframework_ProjectAssignment_Group2\\Documentations\\Features/sample_resume_small_size.pdf</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btnSave"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="btnBack"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220803 16:41:56.650" endtime="20220803 16:41:56.650"/>
+</kw>
+<status status="FAIL" starttime="20220803 16:41:16.872" endtime="20220803 16:41:56.650">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00335FD3+2187219]
+	Ordinal0 [0x002CE6D1+1763025]
+	Ordinal0 [0x001E3D40+802112]
+	Ordinal0 [0x001D8A12+756242]
+	Ordinal0 [0x001D9248+758344]
+	Ordinal0 [0x001DAB02+764674]
+	Ordinal0 [0x001D4379+738169]
+	Ordinal0 [0x001E51D0+807376]
+	Ordinal0 [0x0023C7A2+1165218]
+	Ordinal0 [0x0022C9A6+1100198]
+	Ordinal0 [0x00206F80+946048]
+	Ordinal0 [0x00207E76+949878]
+	GetHandleVerifier [0x005D90C2+2721218]
+	GetHandleVerifier [0x005CAAF0+2662384]
+	GetHandleVerifier [0x003C137A+526458]
+	GetHandleVerifier [0x003C0416+522518]
+	Ordinal0 [0x002D4EAB+1789611]
+	Ordinal0 [0x002D97A8+1808296]
+	Ordinal0 [0x002D9895+1808533]
+	Ordinal0 [0x002E26C1+1844929]
+	BaseThreadInitThunk [0x75C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A4E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220803 16:41:16.732" endtime="20220803 16:41:56.650"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="0 First Test Suite">0 First Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220803 16:41:56.650" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=103.0.5060.134)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00335FD3+2187219]
+	Ordinal0 [0x002CE6D1+1763025]
+	Ordinal0 [0x001E3D40+802112]
+	Ordinal0 [0x001D8A12+756242]
+	Ordinal0 [0x001D9248+758344]
+	Ordinal0 [0x001DAB02+764674]
+	Ordinal0 [0x001D4379+738169]
+	Ordinal0 [0x001E51D0+807376]
+	Ordinal0 [0x0023C7A2+1165218]
+	Ordinal0 [0x0022C9A6+1100198]
+	Ordinal0 [0x00206F80+946048]
+	Ordinal0 [0x00207E76+949878]
+	GetHandleVerifier [0x005D90C2+2721218]
+	GetHandleVerifier [0x005CAAF0+2662384]
+	GetHandleVerifier [0x003C137A+526458]
+	GetHandleVerifier [0x003C0416+522518]
+	Ordinal0 [0x002D4EAB+1789611]
+	Ordinal0 [0x002D97A8+1808296]
+	Ordinal0 [0x002D9895+1808533]
+	Ordinal0 [0x002E26C1+1844929]
+	BaseThreadInitThunk [0x75C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BA7A4E+238]
+</msg>
+</errors>
+</robot>
