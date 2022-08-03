@@ -29,6 +29,7 @@ Robot lacks support for if-else, nested loops, which are required when the code 
    pip install --upgrade robotframework-seleniumlibrary
 6. Install WebDriver:
    https://www.selenium.dev/downloads/
+   After download, extract file and place it into folder python37->scripts
 
 ### Robot Framework Documentation contains:
 
