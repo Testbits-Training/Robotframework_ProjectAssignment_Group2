@@ -19,3 +19,5 @@ Login test fail
     click element    xpath=//*[@id="btnLogin"]
     sleep    10
     element text should be    xpath=//*[@id="content"]/div/div[1]/h1
+
+# Write on terminal: robot Tests/sample_test_login.robot
