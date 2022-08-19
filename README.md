@@ -18,18 +18,30 @@ Robot lacks support for if-else, nested loops, which are required when the code 
 ## Installation:
 
 1. Install Python 3.7.8 (follow pdf for more detail):
-   https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe
+
+   `https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe`
 2. Install Robot Framework on command prompt:
-   pip install Robotframework
+   
+   `pip install Robotframework`
 3. Install Wxpython version 4.0.7 on command prompt:
-   pip install wxpython==4.0.7
+   
+   `pip install wxpython==4.0.7`
 4. Install Robotframework IDE (RIDE) on command prompt:
-   pip install robotframework-ride
+   
+   `pip install robotframework-ride`
 5. Install Selenium Library (version 5.1.1) on command prompt:
-   pip install --upgrade robotframework-seleniumlibrary==5.1.1
+   
+   `pip install --upgrade robotframework-seleniumlibrary==5.1.1`
 6. Install WebDriver:
+
    https://www.selenium.dev/downloads/
    After download, extract file and place it into folder python37->scripts
+
+If you don not want to use RIDE, you can use any Python IDE. For example, Pycharm:
+- For the installation of PyCharm: https://www.youtube.com/watch?v=ZqqIRgNn1vM
+- Writing your first test using PyCharm: https://www.youtube.com/watch?v=WsjShhwDLlo
+- For data driven using excel file tutorial, can refer documentation
+
 
 ### Robot Framework Documentation contains:
 
@@ -63,13 +75,6 @@ Robot lacks support for if-else, nested loops, which are required when the code 
    - Delete Nationalities
    - Edit Nationalities
 
-##Note for Data driven using excel file:
-
-For data driven test case using excel file, RIDE is not recommended. You can use Python IDE (such as PyCharm) to run this data driven test.
-
-- For the installation of PyCharm: https://www.youtube.com/watch?v=ZqqIRgNn1vM
-- Writing your first test using PyCharm: https://www.youtube.com/watch?v=WsjShhwDLlo
-- For data driven using excel file tutorial, can refer documentation
 
 ### Reference:
 
