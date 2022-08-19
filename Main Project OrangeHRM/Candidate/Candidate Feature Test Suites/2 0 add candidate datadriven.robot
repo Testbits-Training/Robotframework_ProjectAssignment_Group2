@@ -27,7 +27,7 @@ Login and navigate to add candidate
     Sleep    1
     click element    xpath=//*[@id="btnAdd"]
 
-Add candidate DD
+DD add candidate
     [Arguments]    ${dd_fname}    ${dd_lname}    ${dd_email}
     Sleep    1
     input_text    xpath=//*[@id="addCandidate_firstName"]    ${dd_fname}
