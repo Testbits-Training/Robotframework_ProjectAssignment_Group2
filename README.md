@@ -1,6 +1,6 @@
 ## Important Note
 
-For this repository, you can use to learn how to write Robot Framework syntax. But you cannot run/execute test suites inside this repository. It is because https://opensource-demo.orangehrmlive.com/ (demo website) UI totally change from previous. It means almost all element path also different from previous version (which used in this testing). I recommend users to use this repository (https://github.com/Testbits-Training/RobotFramework-CURA-demo) for learning and executing demonstration
+For this repository, you can use to learn how to write Robot Framework syntax. But you cannot run/execute test suites inside this repository. It is because https://opensource-demo.orangehrmlive.com/ (demo website) UI totally change from previous. It means almost all element path also different from previous version (which used in this testing). I recommend users to use this repository (https://github.com/Testbits-Training/RobotFramework-CURA-demo) for learning and demonstration
 
 
 
