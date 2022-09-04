@@ -42,6 +42,9 @@ Robot lacks support for if-else, nested loops, which are required when the code 
 
    https://www.selenium.dev/downloads/
    After download, extract file and place it into folder python37->scripts
+7. Data Driver Library:
+   
+   `pip install --upgrade robotframework-datadriver[XLS]`
 
 If you don not want to use RIDE, you can use any Python IDE. For example, Pycharm:
 - For the installation of PyCharm: https://www.youtube.com/watch?v=ZqqIRgNn1vM
